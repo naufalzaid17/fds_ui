@@ -1,0 +1,45 @@
+{
+  "name": "solve",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "antd": "^5.6.3",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.0",
+    "date-fns": "^2.30.0",
+    "echarts": "^5.4.3",
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.6",
+    "formik": "^2.4.2",
+    "framer-motion": "^10.12.16",
+    "lodash": "^4.17.21",
+    "next": "13.4.6",
+    "nookies": "^2.5.2",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^13.4.12",
+    "cross-env": "^7.0.3"
+  }
+}
